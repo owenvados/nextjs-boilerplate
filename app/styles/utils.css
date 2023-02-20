@@ -1,0 +1,30 @@
+.u-flex {
+  display: flex;
+}
+.u-flex-center {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.u-margin-bottom {
+  margin-bottom: 16px;
+}
+.u-fullwidth {
+  max-width: 100vw;
+  height: -webkit-fill-available;
+  display: block;
+}
+.u-max-width {
+  width: 100%;
+  max-width: 1200px;
+  max-width: var(--site__max-width);
+}
+.c-movies-list {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 24px;
+  overflow-x: scroll;
+}
+.c-movies-lisr::-webkit-scrollbar {
+  display: none;
+}

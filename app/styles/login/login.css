@@ -1,0 +1,32 @@
+.c-login {
+  height: 100vh;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.c-login-component-width {
+  width: calc(100% - 8px * 2);
+}
+/* tablet */
+@media (min-width: 768px) {
+  .c-login {
+    align-items: flex-end;
+    max-width: calc(100% - 32px);
+  }
+  .c-login-component-width {
+    width: calc(100% - 16px * 2);
+  }
+}
+/* desktop */
+@media (min-width: 1140px) {
+  .c-login {
+    max-width: calc(100% - 120px);
+  }
+}
+/* ultra desktop */
+@media (min-width: 1660px) {
+  .c-login {
+    max-width: calc(100% - 130px);
+  }
+}
